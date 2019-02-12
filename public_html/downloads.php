@@ -9,7 +9,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>CanolaPathoGenTracker: a leaflet.js map tool for tracking Canola (Brassica napus) pathogens</title>
+        <title>ClubrootTracker: a leaflet.js map tool for tracking Plasmodiophora brassicae (Clubroot)</title>
 
         <!-- Bootstrap Core CSS -->
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
