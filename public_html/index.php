@@ -58,7 +58,7 @@
     <div class=col-lg-12>
 <p>ClubrootTracker: a leaflet.js map tool for tracking <i>Plasmodiophora brassicae</i> (Clubroot)</p>
 <div style="margin-bottom: 30px"></div>
-    <a href="clubroot/index.php" class="btn btn-lg btn-primary btn-block">Start ClubrootTracker</a>
+    <a href="clubroot/index.php" target="_blank"class="btn btn-lg btn-primary btn-block">Start ClubrootTracker</a>
 <div style="margin-bottom: 20px"></div>
 <img src="images/clubroot_tracker_map.png" class="img-responsive" alt="clubroot_tracker_map.png">
 <div style="margin-bottom: 30px"></div>
