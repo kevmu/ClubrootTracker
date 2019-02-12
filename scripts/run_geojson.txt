@@ -1,0 +1,2 @@
+python generate_geojson.py -i ~/Desktop/clubroot_tracker_data.csv -o ~/Desktop/clubroot_outputdir2
+

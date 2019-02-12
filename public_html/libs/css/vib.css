@@ -1,0 +1,32 @@
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none){img[src*=".svg"]{width:100%;}
+}
+@font-face{font-family:Dense;src:url(../../fonts/Dense-Regular.ttf);}
+@font-face{font-family:Open Sans;src:url(../../fonts/OpenSans.woff);}
+@font-face{font-family:Material Icons;font-weight:400;font-style:normal;src:url(../../fonts/MaterialIcons.woff) format('woff');}
+body{background-image:url('../../img/geometric_shapes.jpg');font-family:"Open Sans", Helvetica, sans-serif;color:#1b2944 !important;font-weight:400;font-size:18px;}
+.form-group textarea.form-control{background-color:white;}
+.no-decoration{color:black;}
+.fill-container{height:100%;}
+.no-decoration:hover{color:black;text-decoration:none;}
+.center-container{display:table;vertical-align:middle;}
+.vertical-center-row{display:table-cell;vertical-align:middle;}
+h1, h2, h3, h4, h5, h6{font-family:'Open Sans';font-weight:600;color:#1b2944;}
+#phyd3{padding:0px;margin:0px;text-align:center;}
+#phyd3logo{position:fixed;top:20px;left:20px;width:200px;height:150px;z-index:-100;}
+#phyd3inlinelogo{width:67px;height:50px;}
+#viblogo{position:fixed;bottom:50px;right:50px;width:150px;z-index:-100;}
+#bitslogo{position:fixed;top:45%;left:80px;width:150px;z-index:-100;}
+.checkbox .checkbox-material{width:15px;height:15px;}
+.phyd3-documentation{font-size:0.7em;}
+hr{border-top:1px solid #aaa;}
+.red{color:red;}
+.btn-primary{font-size:1.0em;}
+textarea.col{min-height:400px;overflow-x:hidden;}
+.radio{display:inline-block;}
+.annotation .form-group{margin:0px;}
+.hidden{display:none;}
+td{vertical-align:top;}
+.row .columns{overflow-x:scroll;}
+.graphColor{padding-right:10px !important;}
+.form-group{margin-top:0px;}
+.top-padding{padding-top:5px;}
