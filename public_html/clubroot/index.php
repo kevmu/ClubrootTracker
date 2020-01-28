@@ -59,7 +59,7 @@
 </div>
 <div id='map'></div>
 
-<script src="sample-geojson.js" type="text/javascript"></script>
+<script src="tracker_geojson.js" type="text/javascript"></script>
 
 <script>
 	var map = L.map('map').setView([52.146973, -106.647034], 4);
