@@ -53,18 +53,19 @@ with open(infile) as csv_file:
         if line_count != 0:
             province = row[0]
             location = row[1]
-            latlong = row[2].split(",")
-            long = float(latlong[0])
-            lat = float(latlong[1])
+            lat = float(row[2])
+            long = float(row[3])
+			
             coordinates = []
             coordinates.append(lat)
             coordinates.append(long)
             
-            pathogen_common_name = row[3]
-            display = row[4]
+            pathogen_common_name = row[4]
+            display = row[5]
             print('province = ' + str(province))
             print('location = ' + str(location))
-            print('latlong = ' + str(latlong))
+            print('lat = ' + str(lat))
+            print('long = ' + str(long))
             print('display = ' + str(display))
         
             coordinates_data = {}
@@ -93,29 +94,10 @@ geojson_data["type"] = "FeatureCollection"
 geojson_data["features"] = features
 print(geojson_data)
 
-geojson_outfile = os.path.join(output_dir, 'tracker_geojson.json')
+geojson_outfile = os.path.join(output_dir, 'tracker_geojson.js')
 geojson_file = open(geojson_outfile, "w+")
-geojson_file.write(json.dumps(geojson_data, indent=4))
+geojson_file.write("var clubroot_tracker_coords" + " " + "=" + " " + json.dumps(geojson_data, indent=4))
 geojson_file.close()
 
-#var bicycleRental = {
-#    "type": "FeatureCollection",
-#    "features": [
-#                 {
-#                 "geometry": {
-#                 "type": "Point",
-#                 "coordinates": [
-#                                 -104.9998241,
-#                                 39.7471494
-#                                 ]
-#                 },
-#                 "type": "Feature",
-#                 "properties": {
-#                 "popupContent": "This is a B-Cycle Station. Come pick up a bike and pay by the hour. What a deal!"
-#                 },
-#                 "id": 51
-#                 },
-
-                 
 
 
