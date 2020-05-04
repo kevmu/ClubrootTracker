@@ -17,7 +17,8 @@
 <h4 class="modal-title">ClubrootTracker Comments and Questions</h4>
 </div>
 <div class="modal-body">
-<p>Please e-mail your comments or questions directly to the ClubrootTracker curator (<a href="mailto:help@canolapathogentracker.ca?Subject=User Comments and Questions" target="_top">help@canolapathogentracker.ca</a>)</p>
+<p>Please e-mail your comments or questions directly to the ClubrootTracker curator (<a href="mailto:help.clubroottracker@gmail.com
+?Subject=User Comments and Questions" target="_top">help.clubroottracker@gmail.com</a>)</p>
 
 <p>Thanks for your input!</p>
 <div class="modal-footer">

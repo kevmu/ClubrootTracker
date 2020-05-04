@@ -30,15 +30,18 @@
                             <li>
                                 <a href="index.php"><i class="fa fa-home fa-fw"></i> HOME</a>
                             </li>
-			    <li>
+							<li>
                                  <a href="/clubroot/index.php" target="_blank"><i class="fa fa-map-marker fa-fw"></i> ClubrootTracker</a>
+                            </li>
+							<li>
+                                <a href="dashboard.php"><i class="fa fa-dashboard fa-fw"></i> DASHBOARD</a>
                             </li>
                             <li>
                                 <a href="downloads.php"><i class="fa fa-download fa-fw"></i> DOWNLOADS</a>
-			    </li>
-			<li>
-				<a href="links.php"><i class="fa fa-link fa-fw"></i> LINKS</a>
-			<li>
+							</li>
+							<li>
+								<a href="links.php"><i class="fa fa-link fa-fw"></i> LINKS</a>
+							<li>
                         </ul>
                     </div>
                     <!-- /.sidebar-collapse -->
