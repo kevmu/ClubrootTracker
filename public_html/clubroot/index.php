@@ -78,7 +78,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 			popupContent += "<p>Description: " + feature.properties.popupContent + "</p>";
 			popupContent += "<p>Uploaded by: <br>";
 			popupContent += "Name: " + feature.properties.lastname + ", " + feature.properties.firstname + "<br>";
-			popupContent += "Title: " + feature.properties.academictitle + "<br>";
+			//popupContent += "Title: " + feature.properties.academictitle + "<br>";
 			popupContent += "Institution: " + feature.properties.institution + "<br>";
 			popupContent += "Country: " + feature.properties.country + "<br>";
 			popupContent += 'email: <a href="mailto:' + feature.properties.email + '">' + feature.properties.email + '</a> </p>';
